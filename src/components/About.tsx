@@ -118,7 +118,6 @@ export const About: React.FC = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          
           <h2 className="text-4xl sm:text-5xl font-bold font-display text-slate-800 dark:text-white mb-6">
             About Warka Properties
           </h2>
@@ -233,40 +232,6 @@ export const About: React.FC = () => {
               </p>
             </div>
           ))}
-        </div>
-
-        {/* Achievements */}
-        <div
-          className={`bg-gradient-to-r from-emerald-600 to-teal-600 rounded-3xl p-8 md:p-12 text-white transition-all duration-1000 delay-800 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-          }`}
-        >
-          <div className="text-center mb-12">
-            <h3 className="text-3xl sm:text-4xl font-bold font-display mb-4">
-              Our Achievements
-            </h3>
-            <p className="text-xl text-emerald-100 max-w-2xl mx-auto">
-              Numbers that reflect our commitment to excellence and client
-              satisfaction
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {achievements.map((achievement, index) => (
-              <div key={index} className="text-center group">
-                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-white/30 transition-all duration-300 group-hover:scale-110">
-                  <achievement.icon className="w-8 h-8" />
-                </div>
-                <div className="text-3xl md:text-4xl font-bold mb-2">
-                  {achievement.value}
-                  {achievement.suffix}
-                </div>
-                <div className="text-emerald-100 text-sm md:text-base">
-                  {achievement.label}
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>

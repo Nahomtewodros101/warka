@@ -65,7 +65,7 @@ export const Contact: React.FC = () => {
     {
       icon: Phone,
       title: "Phone Numbers",
-      details: ["+251912635255", "+251996598826"],
+      details: ["+251912635255", "+251996598826", "+251960888885"],
       color: "text-emerald-600 dark:text-emerald-400",
     },
     {
@@ -157,8 +157,6 @@ export const Contact: React.FC = () => {
                 </div>
               ))}
             </div>
-
-            
           </div>
 
           {/* Contact Form */}
@@ -281,8 +279,6 @@ export const Contact: React.FC = () => {
             </div>
           </div>
         </div>
-
-      
       </div>
     </section>
   );

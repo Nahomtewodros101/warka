@@ -35,7 +35,6 @@ export const Header: React.FC = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3 group cursor-pointer">
-            
             <div>
               <h1 className="text-2xl font-bold font-display text-slate-800 dark:text-white tracking-tight">
                 WARKA
@@ -111,10 +110,20 @@ export const Header: React.FC = () => {
               </a>
             ))}
             <div className="px-4 py-2 border-t border-emerald-100 dark:border-slate-700 mt-2">
-              <div className="flex items-center space-x-2 text-sm text-slate-600 dark:text-slate-400">
+              <div className="flex items-center space-x-2  text-sm text-slate-600 dark:text-slate-400">
                 <Phone className="w-4 h-4" />
                 <span>+251912635255</span>
               </div>
+              <div className="flex items-center space-x-2 space-y-1 text-sm text-slate-600 dark:text-slate-400">
+                <Phone className="w-4 h-4" />
+                <span>+251960888885</span>
+              </div>
+              <div className="flex items-center space-x-2 space-y-1 text-sm text-slate-600 dark:text-slate-400">
+                <Phone className="w-4 h-4" />
+                <span>+251996598826</span>
+              </div>
+                <span></span>
+                <span></span>
             </div>
           </div>
         </div>

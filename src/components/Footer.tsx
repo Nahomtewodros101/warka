@@ -57,6 +57,8 @@ export const Footer: React.FC = () => {
                 <div className="flex items-center space-x-3 text-slate-400 hover:text-emerald-400 transition-colors duration-300">
                   <Phone className="w-5 h-5 flex-shrink-0" />
                   <span className="text-sm">+251912635255</span>
+                  <span className="text-sm">+251996598826</span>
+                  <span className="text-sm">+251960888885</span>
                 </div>
                 <div className="flex items-center space-x-3 text-slate-400 hover:text-emerald-400 transition-colors duration-300">
                   <Mail className="w-5 h-5 flex-shrink-0" />
